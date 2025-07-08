@@ -13,6 +13,7 @@
 .nav-body {
   background-color: #fff8f3;
   padding: 5px 5px;
+  margin-bottom: 50px;
 }
 
 .nav-container {
@@ -48,6 +49,12 @@ li a {
   border-radius: 2px;
   padding: 8px 10px;
 }
+.btn-secondary {
+  color: #fd6e0a;
+  border: 1px solid #fd6e0a;
+  border-radius: 2px;
+  padding: 8px 10px;
+}
 
 /* banner styles */
 .developer-info-container {
@@ -64,4 +71,77 @@ li a {
 .developer-img {
   height: 676px;
   width: 584px;
+}
+
+.card-container {
+  text-align: center;
+  /* border: 1px solid black; */
+  border-radius: 15px;
+  /* background-color: white; */
+}
+
+.card-info {
+  display: flex;
+  gap: 10px;
+}
+.card-info div {
+  border: 1px solid black;
+  padding: 15px;
+  box-shadow: 5px 5px 5px rgb(195, 191, 191);
+}
+.summary-section-container {
+  max-width: 1140px;
+  max-height: 550px;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  /* background-color: #fff8f3; */
+  padding: 130px 156px;
+  border-radius: 15px;
+}
+
+.summary-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.education-container {
+  max-width: 50%;
+}
+.experience-container {
+  max-width: 50%;
+}
+
+.Footer-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 150px;
+  background-color: #fff8f3;
+  padding: 30px 100px;
+}
+.message div {
+  margin-bottom: 5px;
+}
+/* shared styles */
+.section-container {
+  max-width: 1140px;
+  max-height: 550px;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background-color: #fff8f3;
+  padding: 130px 156px;
+  border-radius: 15px;
+}
+.about-container {
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 15px;
+  background-color: white;
+}
+.about-info {
+  display: flex;
+  gap: 5px;
+  justify-content: space-evenly;
 }
